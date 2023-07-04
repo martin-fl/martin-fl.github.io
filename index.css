@@ -1,0 +1,48 @@
+:root {
+    --bg-light: #FFFFFF;
+    --hg-light: #faf8ec;
+    --fg-light: #000000;
+    --text-fs: 1rem;
+    --math-fs: 1.3rem;
+}
+
+html {
+    background-color: var(--bg-light);
+    font-family: "Fira Sans", sans-serif;
+    font-size: var(--text-fs);
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    grid-template-areas:
+        " . header  header  . "
+        " . content content . "
+        " . footer  footer  . ";
+    grid-template-columns: 25% repeat(2, min(300px, 25%)) 25%;
+}
+
+hgroup {
+    grid-area: header;
+}
+
+hgroup h1 {
+    margin-bottom: 0;
+}
+
+hgroup p {
+    margin: 0;
+}
+
+#content {
+    grid-area: content;
+    /* border: 3px solid var(--hg-light); */
+}
+
+#content math[display="block"] {
+    font-size: var(--math-fs);
+}
+
+/* * {
+    border: 1px solid #000
+} */
