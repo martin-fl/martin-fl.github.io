@@ -1,6 +1,5 @@
 :root {
     --bg-light: #FFFFFF;
-    --hg-light: #faf8ec;
     --fg-light: #000000;
     --text-fs: 1rem;
     --math-fs: 1.3rem;
@@ -10,39 +9,61 @@ html {
     background-color: var(--bg-light);
     font-family: "Fira Sans", sans-serif;
     font-size: var(--text-fs);
+    overflow: hidden;
 }
 
 body {
     display: grid;
     justify-content: center;
     grid-template-areas:
-        " . header  header  . "
+        " . head    head    . "
         " . content content . "
-        " . footer  footer  . ";
-    grid-template-columns: 25% repeat(2, min(300px, 25%)) 25%;
+        " . foot    foot    . ";
+    grid-template-columns: 25% repeat(2, min(400px, 25%)) 25%;
 }
 
-hgroup {
-    grid-area: header;
+header {
+    grid-area: head;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.7em;
 }
 
-hgroup h1 {
+header hgroup h1 {
     margin-bottom: 0;
 }
 
-hgroup p {
+header hgroup p {
     margin: 0;
+}
+
+header img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 200px;
+}
+
+footer {
+    margin-top: 50px;
+    grid-area: foot;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer img {
+    padding: 5px;
+    aspect-ratio: auto;
+    height: 35px;
 }
 
 #content {
     grid-area: content;
-    /* border: 3px solid var(--hg-light); */
 }
 
 #content math[display="block"] {
     font-size: var(--math-fs);
 }
 
-/* * {
-    border: 1px solid #000
-} */
