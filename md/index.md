@@ -10,7 +10,7 @@
 
 <!-- pandoc extension: multiline_tables -->
 -------------  ---------------------------------------------------------------------------------------------
-  2023-202x    __Ph.D in Mathematics__ - [Sapienza Università di Roma](https://www.uniroma1.it), Italy <!-- - [INRIA Université Côte d'Azur](inria.fr) -->
+  Current      __Ph.D in Mathematics__ - [Sapienza Università di Roma](https://www.uniroma1.it), Italy <!-- - [INRIA Université Côte d'Azur](inria.fr) -->
 
                _Microscopic and macroscopic models for multilane and multispecies traffic flow_
               
@@ -31,3 +31,14 @@
          _State and parameter estimation of wine fermentation models for real-time aroma control_ <br>
          Advisors: Ludovic Sacchelli, Agustín Yabo
 -------- ---------------------------------------------------------------------------------------------
+
+
+## preprints
+
+-------------  ----------------------------------------------------------------------------------------------
+  2023         Martin Fleurial, Ludovic Sacchelli, Agustín Gabriel Yabo,
+
+               _State estimation in alcoholic fermentation models: a case-study in wine-making conditions._ <br>
+               (available on [hal.science](https://hal.science/hal-04269299))
+
+-------------  ----------------------------------------------------------------------------------------------
