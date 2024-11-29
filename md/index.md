@@ -1,8 +1,8 @@
 ## research interests
 
+- numerical analysis
+- mathematical modelisation
 - optimal control
-- PDE analysis
-- dynamical systems
 
 ## short resume
 
@@ -17,7 +17,7 @@
   2022-2023    __Master's Degree in Applied Mathematics__ - [Université de Rouen](https://www.univ-rouen.fr), France<br>
   2018-2023    __Engineering Degree in Applied Mathematics__ - [INSA Rouen](https://www.insa-rouen.fr), France
 
-               Thesis: _Observateurs non-linéaire par changement de l'échelle temporelle_ <br>
+               Thesis: _Observateurs non-linéaires par changement de l'échelle temporelle_ <br>
                Advisor: Witold Respondek
 
 -------------  ---------------------------------------------------------------------------------------------
@@ -26,14 +26,14 @@
 ### positions
 
 -------- ---------------------------------------------------------------------------------------------
-  2023   Intern - [McTAO, INRIA Université Côte d'Azur](https://team.inria.fr/mctao/), France
+  2023   Research intern - [McTAO, INRIA Université Côte d'Azur](https://team.inria.fr/mctao/), France
 
          _State and parameter estimation of wine fermentation models for real-time aroma control_ <br>
          Advisors: Ludovic Sacchelli, Agustín Yabo
 -------- ---------------------------------------------------------------------------------------------
 
 
-## preprints
+## conference papers
 
 -------------  ----------------------------------------------------------------------------------------------
   2023         Martin Fleurial, Ludovic Sacchelli, Agustín Gabriel Yabo,
